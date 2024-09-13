@@ -1,0 +1,25 @@
+{
+  "name": "gh-actions-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jtest",
+    "start": "node src/index.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "superset": "^2.0.1"
+  }
+}
